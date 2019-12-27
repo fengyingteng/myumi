@@ -1,0 +1,40 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: -1px;
+  background: darkslateblue;
+  padding: .6em 0;
+  color: white;
+  margin: 0;
+}
+
+.fade-enter, .fade-appear {
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+.fade-enter-done {
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.fade-exit-done {
+  opacity: 0;
+}
